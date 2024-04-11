@@ -8,6 +8,7 @@
     "start:test": "VITE_API_URL=http://localhost:8010 PORT=5183 vite",
     "build": "tsc && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "typecheck": "tsc --noemit",
     "preview": "vite preview"
   },
   "dependencies": {

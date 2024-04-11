@@ -1,0 +1,7 @@
+cd api
+npm run lint
+npm run typecheck
+npm run format:check
+cd ../frontend
+npm run lint
+npx run typecheck
