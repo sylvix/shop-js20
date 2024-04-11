@@ -12,8 +12,8 @@ export const config: CodeceptJS.MainConfig = {
   helpers: {
     Puppeteer: {
       url: 'http://localhost:5183',
-      show: true,
-      windowSize: '1200x900'
+      show: process.env['CI'] !== 'true',
+      windowSize: '1200x900',
     }
   },
   gherkin: {
