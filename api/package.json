@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "nodemon index.ts",
     "start:test": "NODE_ENV=test ts-node index.ts",
+    "start": "ts-node index.ts",
     "seed": "ts-node fixtures.ts",
     "seed:test": "NODE_ENV=test ts-node fixtures.ts",
     "lint": "eslint \"**/*.ts\"",
